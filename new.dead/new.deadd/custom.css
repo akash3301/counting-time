@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.main{
+    width: 100%;
+    height:100vh;
+    background: url('/assets/background/pexels-toni-cuenca-572487.jpg') center;
+    background-size: cover;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    background-color: rgb(0, 0, 0,0.5);
+}
+.title{
+    line-height: 70px;
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 10px;
+}
+.col div{
+    width: 250px;
+    text-align:center;  
+
+}
+.col{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    margin: 70px auto;
+    color: white;
+}
+input{
+    width: 50%;
+    height: 50px;
+    background: rgb(255, 255, 255,0.5);
+    border-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+
+}
